@@ -48,7 +48,7 @@ The frontend for this rule engine project is a React-based application that prov
    ```bash
    git clone https://github.com/shivateja20013/rule_engine_backend.git
    cd rule_engine_backend
-```
+   ```
 
 2. Install the required dependencies:
 ```bash
