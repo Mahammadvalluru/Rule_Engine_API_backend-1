@@ -51,9 +51,9 @@ The frontend for this rule engine project is a React-based application that prov
    ```
 
 2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Create a database: The database will be automatically created when you run the app for the first time.
 
@@ -83,11 +83,12 @@ The frontend will run on http://localhost:3000 and will interact with the backen
 #### Create a Rule
 + Endpoint: /create_rule
 + Method: POST
-
 + Payload:
+```json
 {
-  "rule_string": "temperature > 30 AND humidity < 50"
+  "rule_string": "((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')) AND (salary > 50000 OR experience > 5)"
 }
+```
 
 ### Evaluate a Rule
 + Endpoint: /evaluate_rule
@@ -97,10 +98,13 @@ The frontend will run on http://localhost:3000 and will interact with the backen
 {
   "rule_id": 1,
   "data": {
-    "temperature": 35,
-    "humidity": 45
+    "age": 32,
+    "department": "Sales",
+    "salary": 60000,
+    "experience": 6
   }
 }
+
 ```
 
 ### Combine Rules
@@ -112,6 +116,7 @@ The frontend will run on http://localhost:3000 and will interact with the backen
   "rule_ids": [1, 2],
   "condition": "and"
 }
+
 ```
 
 ### Fetch All Rules
