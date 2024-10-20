@@ -48,13 +48,16 @@ The frontend for this rule engine project is a React-based application that prov
    ```bash
    git clone https://github.com/shivateja20013/rule_engine_backend.git
    cd rule_engine_backend
+```
 
-2.Install the required dependencies:
+2. Install the required dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-3.Create a database: The database will be automatically created when you run the app for the first time.
+3. Create a database: The database will be automatically created when you run the app for the first time.
 
-4.Run the FastAPI application:
+4. Run the FastAPI application:
 uvicorn main:app --reload
 
 ## Frontend Setup:
