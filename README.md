@@ -46,8 +46,8 @@ The frontend for this rule engine project is a React-based application that prov
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mahammadvalluru/Rule_Engine_API_Backend.git
-   cd Rule_Engine_API_Backend
+   git clone https://github.com/Lahari21-sys/Rule_Engine_API_backend.git
+   cd Rule_Engine_API_backend
    ```
 
 2. Install the required dependencies:
@@ -63,8 +63,8 @@ uvicorn main:app --reload
 ## Frontend Setup:
 1. Clone the frontend repository:
 ```bash
-git clone https://github.com/Mahammadvalluru/Rule_Engine_API_.git
-cd Rule_Engine_API_ 
+git clone https://github.com/Lahari21-sys/Rule_Engine_API_Frontend.git
+cd Rule_Engine_API_Frontend
 ```
 
 2. Install the frontend dependencies: 
